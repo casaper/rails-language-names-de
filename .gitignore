@@ -11,6 +11,12 @@ capybara-*.html
 *.orig
 rerun.txt
 pickle-email-*.html
+/.bundle/
+/.yardoc
+/_yardoc/
+/doc/
+/pkg/
+/spec/reports/
 
 # TODO Comment out this rule if you are OK with secrets being uploaded to the repo
 config/initializers/secret_token.rb
@@ -26,6 +32,9 @@ config/master.key
 ## Environment normalization:
 /.bundle
 /vendor/bundle
+
+# Ignore node_modules
+node_modules/
 
 # these should all be checked in to normalize the environment:
 # Gemfile.lock, .ruby-version, .ruby-gemset
@@ -44,6 +53,9 @@ bower.json
 # Ignore Byebug command history file.
 .byebug_history
 
-# Ignore node_modules
-node_modules/
+# code editors configs
+/.vscode
+/.idea
+.DS_Store
+
 
